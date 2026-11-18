@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Sprout Launcher">
+  <defs>
+    <linearGradient id="sg" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4ade80"/>
+      <stop offset="0.52" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="leaf" x1="20" y1="14" x2="44" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#04301c"/>
+      <stop offset="1" stop-color="#0a1f2e"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="2" y="2" width="60" height="60" rx="17" fill="url(#sg)"/>
+  <rect x="3.2" y="3.2" width="57.6" height="57.6" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.28" stroke-width="1.2"/>
+
+  <path d="M32 49V26.5" stroke="url(#leaf)" stroke-width="4.4" stroke-linecap="round"/>
+  <path d="M31.6 29C23.6 29 18.6 24 18.6 15.6c8.4 0 13 5 13 13.4Z" fill="url(#leaf)"/>
+  <path d="M32.6 25.4c0-7.2 4.6-11.8 12.8-11.8 0 7.3-4.6 11.8-12.8 11.8Z" fill="url(#leaf)" opacity="0.92"/>
+  <path d="M22 50.5h20" stroke="url(#leaf)" stroke-width="3.6" stroke-linecap="round" opacity="0.75"/>
+</svg>
